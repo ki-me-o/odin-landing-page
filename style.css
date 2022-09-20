@@ -16,19 +16,26 @@ body {
     margin: 0;
 }
 
-.header, .hero, .footer {
+.hero, .footer {
     display: flex;
-    flex-direction: row;
     background-color: #1F2937;
 }
 
-.header {
-    justify-content: space-around;
+.hero {
+    flex-direction: column;
     align-items: center;
-    padding: 8px;
 }
 
-.header .logo {
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    width: 66%;
+}
+
+.logo {
     font-size: 24px;
 }
 
@@ -37,19 +44,24 @@ body {
     color: #E5E7EB;
 }
 
-.hero {
-    justify-content: center;
-    padding: 64px;
-    max-height: 250px;
+.hero .banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    width: 66%;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 32px;
+    padding-bottom: 64px;
+    max-height: 200px;
 }
 
 .hero .text-box, .hero .image-box {
-    width: 33%;
     display: flex;
+    flex: 1;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 8px;
 }
 
 .hero .maintext {
