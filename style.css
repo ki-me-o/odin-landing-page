@@ -1,0 +1,20 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    size: 24px;
+    color: #F9FAF8;
+    justify-content: space-around;
+}
+
+.header a {
+    color: #E5E7EB;
+    text-decoration: none;
+    size: 18px;
+}
