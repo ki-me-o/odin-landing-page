@@ -36,6 +36,13 @@ body {
     color: #F9FAF8;
 }
 
+.header .links {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: space-between;
+}
+
 .header a {
     text-decoration: none;
     color: #E5E7EB;
